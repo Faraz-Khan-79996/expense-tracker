@@ -1,4 +1,4 @@
-const host = "https://expense-tracker-backend-pearl-rho.vercel.app";
+const host = "https://expense-tracker-backend-seven-ashy.vercel.app";
 // const host = "http://localhost:5000";
 // const host = ""
 export const setAvatarAPI = `${host}/api/auth/setAvatar`;
