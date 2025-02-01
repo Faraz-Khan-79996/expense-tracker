@@ -23,7 +23,7 @@ const allowedOrigins = [
 ];
 
 // Middleware
-app.use(express.static(path.join(__dirname, 'build')))
+app.use(express.static(path.join(__dirname, 'dist')))
 app.use(express.json());
 // app.use(
 //   cors({
@@ -44,7 +44,7 @@ app.use("/api/v1", transactionRoutes);
 app.use("/api/auth", userRoutes);
 
 app.use('*', (req, res) => {
-  res.sendFile(path.join(__dirname, "build", "index.html"))
+  res.sendFile(path.join(__dirname, "dist", "index.html"))
 })
 
 app.listen(port, () => {

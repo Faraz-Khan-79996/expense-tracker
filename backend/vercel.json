@@ -24,12 +24,12 @@
       },
       {
         "src": "/",
-        "dest": "build/index.html"
+        "dest": "dist/index.html"
       },
-      { "src": "/[^.]+", "build": "/", "status": 200 },
+      { "src": "/[^.]+", "dest": "/", "status": 200 },
       {
         "src": "/(.+)",
-        "dest": "build/$1"
+        "dest": "dist/$1"
       }
     ]
   }
