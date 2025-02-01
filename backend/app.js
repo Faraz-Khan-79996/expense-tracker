@@ -20,15 +20,24 @@ connectDB();
 
 const allowedOrigins = [
   "https://expense-tracker-frontend-liart-psi.vercel.app"
-  // add more origins as needed
+  // Add more origins as needed
 ];
 
+
 // Middleware
-app.use(express.static(path.join(__dirname, 'dist')))
+app.use(express.static(path.join(__dirname, "dist")));
 app.use(express.json());
+
+// Correct CORS Middleware
 app.use(
   cors({
-    origin: allowedOrigins,
+    origin: (origin, callback) => {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
