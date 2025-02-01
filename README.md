@@ -1,5 +1,7 @@
 # Expense Management System using MERN StackVercel Link:
 
+Deployed Link : [https://expense-tracker-frontend-liart-psi.vercel.app](https://expense-tracker-frontend-liart-psi.vercel.app)
+
 ## Project Description:
 
 The Expense Management System is a web-based application designed to assist users in tracking and managing their daily expenses. This system is built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) with jwt authentication.
@@ -65,13 +67,14 @@ The Expense Management System is a web-based application designed to assist user
 Clone the project
 
 ```bash
-  git clone 
+  git clone https://github.com/Faraz-Khan-79996/expense-tracker.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd 
+  cd expense-tracker
+
 ```
 
 Go to the frontend directory and Install dependencies
@@ -128,12 +131,10 @@ create config folder and add config.env file in it and all all env variables the
 
 ## Screenshots
 
-![App Screenshot](https://i.postimg.cc/6qLR3WNt/Expense-Management-System-Brave-19-04-2023-11-08-53.png)
+![1738413649491](image/README/1738413649491.png)
 
-![App Screenshot](https://i.postimg.cc/DynLNXqZ/Expense-Management-System-Brave-19-04-2023-11-08-59.png)
+![1738413605586](image/README/1738413605586.png)
 
-![App Screenshot](https://i.postimg.cc/Dy6L3wgc/Expense-Management-System-Brave-19-04-2023-11-15-46.png)
+![1738413629495](image/README/1738413629495.png)
 
-![App Screenshot](https://i.postimg.cc/13YF47bn/Expense-Management-System-Brave-19-04-2023-11-15-54.png)
-
-![App Screenshot](https://i.postimg.cc/rwpWV2Z2/Expense-Management-System-Brave-19-04-2023-11-16-01.png)
+![1738413639362](image/README/1738413639362.png)
